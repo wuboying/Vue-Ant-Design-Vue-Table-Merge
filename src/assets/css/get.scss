@@ -1,0 +1,53 @@
+.container {
+	box-sizing: border-box;
+	padding: 10px 15px;
+	height: 100%;
+	// margin: 32px;
+	flex: 1;
+	background-color: white;
+	.title {
+		box-sizing: border-box;
+		overflow: hidden;
+		height: 50px;
+		border-bottom: 1px solid rgba(239, 239, 239, 1);
+		margin-bottom: 25px;
+		ul {
+			padding: 0;
+			overflow: hidden;
+			height: 50px;
+			float: left;
+			margin-bottom: 0;
+			li {
+				color: #666666;
+				padding: 0 20px !important;
+				height: 50px;
+				float: left;
+				line-height: 50px;
+				text-align: center;
+				box-sizing: border-box;
+				font-size: 16px;
+				cursor: pointer;
+			}
+		}
+	}
+	.table-data {
+		box-sizing: border-box;
+		height: calc(100% - 75px);
+		overflow: hidden;
+		.table-data-min {
+			height: 100%;
+			overflow: auto;
+		}
+		.list-p {
+			height: 30px;
+			display: block;
+			line-height: 30px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.titleClass {
+	color: rgba(51, 51, 51, 1) !important;
+	border-bottom: 4px solid rgba(44, 154, 230, 1) !important;
+}

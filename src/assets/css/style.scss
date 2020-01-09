@@ -1,0 +1,46 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+ul, ol {list-style:none;}
+a {text-decoration:none;}
+body{ color:#000; background:#FFF; font:12px/22px Verdana,Arial,sans-serif,"Times New Roman",宋体; text-align:center;}
+img{vertical-align:top;border:0;height:auto;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+input { outline: 0; outline: none; }
+/**滚动条*/
+.scroll_bar::-webkit-scrollbar {
+	width: 4px;
+}
+
+.scroll_bar::-webkit-scrollbar-track {
+	background-color: #cccccc;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+
+.scroll_bar::-webkit-scrollbar-thumb {
+	background-color: #2c9ae3;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	opacity: 0.5;
+}
+
+*::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: #f4f4f4;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ccc;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	opacity: 0.5;
+}
